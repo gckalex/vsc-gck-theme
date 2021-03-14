@@ -1,0 +1,21 @@
+{
+  "name": "gck-theme",
+  "displayName": "gck-theme",
+  "description": "New theme for getCodingKnowledge",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "gckn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gckn-color-theme.json"
+      }
+    ]
+  }
+}
