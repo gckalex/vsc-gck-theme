@@ -17,7 +17,8 @@
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
-				"support.function.magic"
+				"support.function.magic",
+				"support.function.math"
 			],
 			"settings": {
 				"foreground": "#EEC170",
@@ -56,6 +57,7 @@
 			"name": "Primitives Typing",
 			"scope": [
 				"meta.type.annotation",
+				"support.class.builtin",
 				"support.type.primitive"
 			],
 			"settings": {
@@ -121,7 +123,8 @@
 			"name": "Default color",
 			"scope": [
 				"storage.modifier.async",
-				"keyword.operator.type.annotation"
+				"keyword.operator.type.annotation",
+				"punctuation.definition.block"
 			],
 			"settings": {
 				"foreground": "#C7D0D9",
