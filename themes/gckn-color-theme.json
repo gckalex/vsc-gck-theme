@@ -3,15 +3,141 @@
 	"type": "dark",
 	"tokenColors": [
 		{
-			"name": "Number",
+			"name": "Specific keywords",
 			"scope": [
-				"constant.numeric"
+				"keyword.control",
+				"storage.modifier.async"
 			],
 			"settings": {
-				"foreground": "#D19A66",
+				"foreground": "#9b3131",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"support.function.magic"
+			],
+			"settings": {
+				"foreground": "#EEC170",
 				"fontStyle": "bold",
 			}
-		}
+		},
+		{
+			"name": "Classes",
+			"scope": [
+				"storage.type.class",
+				"variable.language.this",
+				"variable.language.super",
+				"keyword.operator.new"
+			],
+			"settings": {
+				"foreground": "#EEC170",
+				"fontStyle": "bold underline",
+			}
+		},
+		{
+			"name": "Primitives",
+			"scope": [
+				"constant.language.boolean",
+				"constant.numeric.decimal",
+				"string.quoted.single",
+				"string.quoted.double",
+				"string.template",
+				"storage.type.primitive.array.java"
+			],
+			"settings": {
+				"foreground": "#dadada",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Primitives Typing",
+			"scope": [
+				"meta.type.annotation",
+				"support.type.primitive"
+			],
+			"settings": {
+				"foreground": "#dadada",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Export/Import control",
+			"scope": [
+				"keyword.control.export",
+				"keyword.control.import",
+				"keyword.control.from",
+				"storage.modifier",
+				"storage.type",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#cc95ff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Flow control",
+			"scope": [
+				"storage.type",
+				"keyword.control.def.ruby",
+				"keyword.control.new.java"
+			],
+			"settings": {
+				"foreground": "#cc95ff",
+				"fontStyle": "bold underline"
+			}
+		},
+		{
+			"name": "Specific operators",
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"storage.type.function.arrow",
+				"keyword.operator.comparison",
+				"keyword.operator.logical",
+				"keyword.operator.optional",
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#a8a8a8",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"storage.type.class.jsdoc"
+			],
+			"settings": {
+				"foreground": "#2c3538",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "Default color",
+			"scope": [
+				"storage.modifier.async",
+				"keyword.operator.type.annotation"
+			],
+			"settings": {
+				"foreground": "#C7D0D9",
+				"fontStyle": "",
+			}
+		},
+		{
+			"name": "Async TS/JS",
+			"scope": [
+				"storage.modifier.async"
+			],
+			"settings": {
+				"foreground": "#9b3131",
+				"fontStyle": ""
+			}
+		},
 	],
 	"colors": {
 		"foreground": "#c7d0d9",
