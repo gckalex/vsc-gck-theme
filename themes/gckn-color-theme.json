@@ -138,6 +138,16 @@
 				"fontStyle": ""
 			}
 		},
+		{
+			"name": "JSON support",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#cc95ff",
+				"fontStyle": ""
+			}
+		},
 	],
 	"colors": {
 		"foreground": "#c7d0d9",
