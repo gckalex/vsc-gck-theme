@@ -19,7 +19,8 @@
 				"entity.name.function",
 				"support.function.magic",
 				"support.function.math",
-				"punctuation.definition"
+				"punctuation.definition.heading.markdown",
+				"punctuation.definition.list.begin.markdown"
 			],
 			"settings": {
 				"foreground": "#EEC170",
@@ -150,6 +151,17 @@
 			"settings": {
 				"foreground": "#cc95ff",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "MD support",
+			"scope": [
+				"punctuation.definition.heading.markdown",
+				"punctuation.definition.list.begin.markdown"
+			],
+			"settings": {
+				"foreground": "#EEC170",
+				"fontStyle": "bold",
 			}
 		},
 	],
