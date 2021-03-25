@@ -18,7 +18,8 @@
 			"scope": [
 				"entity.name.function",
 				"support.function.magic",
-				"support.function.math"
+				"support.function.math",
+				"punctuation.definition"
 			],
 			"settings": {
 				"foreground": "#EEC170",
@@ -72,7 +73,8 @@
 				"keyword.control.from",
 				"storage.modifier",
 				"storage.type",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"entity.name.section"
 			],
 			"settings": {
 				"foreground": "#cc95ff",
