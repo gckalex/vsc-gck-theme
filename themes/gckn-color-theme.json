@@ -49,8 +49,7 @@
 				"storage.type.primitive.array.java"
 			],
 			"settings": {
-				"foreground": "#dadada",
-				"fontStyle": "bold"
+				"foreground": "#dadada"
 			}
 		},
 		{
