@@ -6,3 +6,4 @@
 - Python
 - JSON
 - Markdown
+- TOML
