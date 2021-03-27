@@ -164,6 +164,24 @@
 				"fontStyle": "bold",
 			}
 		},
+		{
+			"name": "TOML Support Keywords",
+			"scope": [
+				"keyword.key.toml"
+			],
+			"settings": {
+				"foreground": "#cc95ff"
+			}
+		},
+		{
+			"name": "TOML Support Other",
+			"scope": [
+				"entity.other.attribute-name.table.toml"
+			],
+			"settings": {
+				"foreground": "#9b3131"
+			}
+		},
 	],
 	"colors": {
 		"foreground": "#c7d0d9",
