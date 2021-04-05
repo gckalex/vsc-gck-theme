@@ -182,6 +182,30 @@
 				"foreground": "#9b3131"
 			}
 		},
+		{
+      "name": "HTML String",
+      "scope": ["string.quoted.double.html", "string.quoted.simple.html"],
+      "settings": {
+        "foreground": "#7dc04e",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Entity Attribute Name",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#EEC170",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Entity Name Tag",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#CC95FF",
+        "fontStyle": ""
+      }
+    },
 	],
 	"colors": {
 		"foreground": "#c7d0d9",

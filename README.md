@@ -7,3 +7,4 @@
 - JSON
 - Markdown
 - TOML
+- HTML
